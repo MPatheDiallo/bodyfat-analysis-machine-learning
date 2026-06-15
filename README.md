@@ -1,7 +1,10 @@
 # 📊 Analyse du taux de masse graisseuse corporelle avec Machine Learning
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
+
+---
 
 ## 📌 Description du projet
 
@@ -48,21 +51,21 @@ Deux modèles ont été comparés :
 
 Les résultats montrent que le modèle Random Forest offre les meilleures performances prédictives.
 
-L’analyse des variables importantes montre également que la variable `Density` joue un rôle majeur dans la prédiction du BodyFat, ce qui reste cohérent avec les méthodes physiologiques utilisées pour estimer la composition corporelle.
+### 📈 Performances obtenues
+
+#### Régression Linéaire
+- R² = 0.992
+- RMSE = 0.628
+
+#### Random Forest Regressor
+- R² = 0.999
+- RMSE = 0.201
 
 Cette différence s’explique principalement par la capacité du Random Forest à capturer des relations non linéaires et des interactions complexes entre les variables biométriques.
 
+L’analyse des variables importantes montre également que la variable `Density` joue un rôle majeur dans la prédiction du BodyFat, ce qui reste cohérent avec les méthodes physiologiques utilisées pour estimer la composition corporelle.
+
 ---
-
-## Performances obtenues :
-
-- Régression Linéaire :
-  - R² = 0.992
-  - RMSE = 0.628
-
-- Random Forest Regressor :
-  - R² = 0.999
-  - RMSE = 0.201
 
 ## 📈 Dashboard du projet
 
