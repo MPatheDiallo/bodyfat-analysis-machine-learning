@@ -1,2 +1,70 @@
-# bodyfat-analysis-machine-learning
-Projet de Data Analysis et Machine Learning pour la prédiction du taux de masse graisseuse corporelle à partir de données biométriques.
+# 📊 Analyse du taux de masse graisseuse corporelle avec Machine Learning
+
+## 📌 Description du projet
+
+Dans le cadre de ma quête de montée en compétences en Data Analysis & Machine Learning, j’ai réalisé un projet portant sur la prédiction du taux de masse graisseuse corporelle (BodyFat) à partir de données biométriques réelles.
+
+L’objectif du projet était :
+- d’analyser les relations entre les variables biométriques ;
+- d’identifier les variables les plus associées au BodyFat ;
+- de comparer plusieurs modèles de Machine Learning ;
+- de comprendre les performances des modèles ;
+- de présenter les résultats à travers un dashboard analytique.
+
+---
+
+## 🧰 Technologies utilisées
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📊 Analyse exploratoire des données
+
+Les analyses ont montré que certaines variables biométriques, notamment le tour d’abdomen, présentent une forte corrélation avec le taux de masse graisseuse corporelle.
+
+Le projet inclut :
+- des analyses statistiques ;
+- des visualisations ;
+- une matrice de corrélation ;
+- une analyse des variables importantes ;
+- des comparaisons de modèles de Machine Learning.
+
+---
+
+## 🤖 Machine Learning
+
+Deux modèles ont été comparés :
+- Régression Linéaire
+- Random Forest Regressor
+
+Les résultats montrent que le modèle Random Forest offre les meilleures performances prédictives.
+
+Cette différence s’explique principalement par la capacité du Random Forest à capturer des relations non linéaires et des interactions complexes entre les variables biométriques.
+
+---
+
+## 📈 Dashboard du projet
+
+![Dashboard](dashboard_bodyfat_final_reel.png)
+
+---
+
+## 📂 Fichiers du projet
+
+- `projet_bodyfat.ipynb` : notebook principal
+- `bodyfat.csv` : dataset utilisé
+- `dashboard_bodyfat_final_reel.png` : dashboard analytique
+
+---
+
+## 👨‍💻 Auteur
+
+**Mamadou Pathe DIALLO**  
+
+Data Analyst & Data Science Enthusiast
